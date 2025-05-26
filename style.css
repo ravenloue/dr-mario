@@ -43,6 +43,18 @@ body {
     background-size: 224px;
 }
 
+#paused {
+    position: absolute;
+    width: 224px;
+    height: 80px;
+    left: 224px;
+    top: 128px;
+    z-index: 1;
+    display: none;
+    background-image: url("img/stop.png");
+    background-size: 224px;
+}
+
 #gameOver_dr {
     position: absolute;
     width: 112px;

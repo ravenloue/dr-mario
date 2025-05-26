@@ -6,16 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dr. Mario</title>
     <link rel="stylesheet" href="style.css">
-    <script defer src="app.js"></script>
+    <script defer type="module" src="app.js"></script>
 </head>
 
-<body onkeydown="controls(event)" onkeyup="stop(event)">
+<body>
     <div id="music"></div>
     <div id="container">
         <div id="board" class="background">
             <div id="gameOver" class="background"></div>
             <img id="gameOver_dr" src="img/go_dr.png">
+            
+            <div id="paused" class="background"></div>
 
+            
             <div id="stageCompleted" class="background"></div>
 
             <div id="score"></div>
